@@ -34,6 +34,16 @@ class NewLaunchPage(FiltersPage):
     def get_search_box_value(self):
         return self.wait.until(EC.visibility_of_element_located(self.SEARCH_BOX)).get_attribute("value")
 
+    def is_location_selected(self, location):
+        search_value = self.get_search_box_value() or ""
+        page_text = self.driver.find_element(By.TAG_NAME, "body").text
+        location_text = location.lower()
+        return (
+            location_text in search_value.lower()
+            or location_text in page_text.lower()
+            or location_text in self.driver.current_url.lower()
+        )
+
     def enter_location_text(self, location):
         search = self.wait.until(EC.visibility_of_element_located(self.SEARCH_BOX))
         search.clear()

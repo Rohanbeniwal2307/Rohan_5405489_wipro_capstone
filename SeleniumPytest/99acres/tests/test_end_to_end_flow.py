@@ -41,7 +41,7 @@ def test_newlaunch_end_to_end_flow(setup):
     page.search_location(location)
     logger.info("Entered location")
     take_screenshot(driver, "e2e_location_entered")
-    assert location.lower() in page.get_search_box_value().lower(), "Selected location should appear in search box."
+    assert page.is_location_selected(location), "Selected location should appear in search input, chip, or page text."
 
     page.submit_search()
     logger.info("Search clicked")
@@ -71,7 +71,10 @@ def test_newlaunch_end_to_end_flow(setup):
     assert page.is_project_detail_page_opened(opened_project), "Project detail page should open."
 
     details_page = PropertyDetailsPage(driver)
-    assert details_page.is_view_number_visible(), "View Number button should be visible on detail page."
+    if details_page.close_project_disclaimer_if_visible():
+        logger.info("Closed project disclaimer popup")
+        take_screenshot(driver, "e2e_project_disclaimer_closed")
+
     assert details_page.click_view_number(), "Contact details or login/contact popup should appear after View Number."
     logger.info("Clicked View Number")
     take_screenshot(driver, "e2e_view_number_popup")

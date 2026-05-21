@@ -53,3 +53,297 @@
 2026-05-21 09:45:48,342 - INFO - TEST STARTED: empty location search negative case
 2026-05-21 09:45:48,343 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
 2026-05-21 09:45:49,075 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:13:57,454 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 11:13:57,466 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:13:58,303 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:13:58,408 - INFO - Clicked New Launch
+2026-05-21 11:14:01,007 - INFO - Entered location
+2026-05-21 11:15:44,289 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 11:15:44,330 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:15:49,752 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:15:50,764 - INFO - Clicked New Launch
+2026-05-21 11:15:52,946 - INFO - Entered location
+2026-05-21 11:16:04,555 - INFO - Search clicked
+2026-05-21 11:16:19,397 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:16:21,061 - INFO - Property type selected
+2026-05-21 11:16:28,716 - INFO - Budget filter selected
+2026-05-21 11:16:35,013 - INFO - Bedroom filter selected
+2026-05-21 11:16:38,791 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 11:16:38,793 - INFO - Opened building: Investwell DM Infra
+2026-05-21 11:18:22,349 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 11:18:22,406 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:18:33,149 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:18:33,618 - INFO - Clicked New Launch
+2026-05-21 11:18:42,223 - INFO - Entered location
+2026-05-21 11:19:13,023 - INFO - Search clicked
+2026-05-21 11:19:33,889 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:19:43,041 - INFO - Property type selected
+2026-05-21 11:20:00,656 - INFO - Budget filter selected
+2026-05-21 11:20:12,252 - INFO - Bedroom filter selected
+2026-05-21 11:20:19,490 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 11:20:19,490 - INFO - Opened building: Investwell DM Infra
+2026-05-21 11:25:58,889 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 11:25:59,243 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:26:08,942 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:26:09,258 - INFO - Clicked New Launch
+2026-05-21 11:26:14,812 - INFO - Entered location
+2026-05-21 11:26:36,820 - INFO - Search clicked
+2026-05-21 11:27:01,142 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:27:09,114 - INFO - Property type selected
+2026-05-21 11:27:29,961 - INFO - Budget filter selected
+2026-05-21 11:27:43,992 - INFO - Bedroom filter selected
+2026-05-21 11:27:50,959 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 11:27:50,960 - INFO - Opened building: Investwell DM Infra
+2026-05-21 11:28:55,620 - INFO - Clicked View Number
+2026-05-21 11:28:56,179 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 11:34:39,331 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 11:34:39,446 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:34:42,145 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:34:44,235 - INFO - Clicked New Launch
+2026-05-21 11:34:53,046 - INFO - Entered location
+2026-05-21 11:35:09,865 - INFO - Search clicked
+2026-05-21 11:35:30,929 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:35:43,895 - INFO - Property type selected
+2026-05-21 11:36:02,348 - INFO - Budget filter selected
+2026-05-21 11:36:15,563 - INFO - Bedroom filter selected
+2026-05-21 11:36:21,261 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 11:36:21,262 - INFO - Opened building: Investwell DM Infra
+2026-05-21 11:36:55,989 - INFO - Clicked View Number
+2026-05-21 11:36:56,348 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 11:38:41,153 - INFO - TEST STARTED: open New Launch module
+2026-05-21 11:38:41,187 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:38:44,042 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:39:35,209 - INFO - TEST STARTED: search valid location
+2026-05-21 11:39:35,210 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:39:36,829 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:40:10,566 - INFO - TEST STARTED: location suggestions
+2026-05-21 11:40:10,569 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:40:12,447 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:40:37,681 - INFO - TEST STARTED: residential property type filter
+2026-05-21 11:40:37,682 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:40:40,133 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:41:00,192 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:41:29,382 - INFO - TEST STARTED: invalid location negative case
+2026-05-21 11:41:29,384 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:41:30,447 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:41:59,758 - INFO - TEST STARTED: empty location search negative case
+2026-05-21 11:41:59,859 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:42:04,785 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:50:11,555 - INFO - TEST STARTED: open New Launch module
+2026-05-21 11:50:11,620 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:50:13,319 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:50:32,931 - INFO - TEST STARTED: search valid location
+2026-05-21 11:50:32,935 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:50:44,083 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:51:22,276 - INFO - TEST STARTED: location suggestions
+2026-05-21 11:51:22,280 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:51:27,250 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:51:44,701 - INFO - TEST STARTED: residential property type filter
+2026-05-21 11:51:44,701 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:51:45,905 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:52:05,123 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:52:23,255 - INFO - TEST STARTED: invalid location negative case
+2026-05-21 11:52:23,256 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:52:23,759 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:52:40,332 - INFO - TEST STARTED: empty location search negative case
+2026-05-21 11:52:40,717 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:52:46,250 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:57:34,231 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 11:57:34,271 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:57:36,715 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 11:57:40,063 - INFO - Clicked New Launch
+2026-05-21 11:57:42,975 - INFO - Entered location
+2026-05-21 11:57:52,500 - INFO - Search clicked
+2026-05-21 11:58:05,068 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 11:58:06,420 - INFO - Property type selected
+2026-05-21 11:58:19,123 - INFO - Budget dropdown values selected, but applied filter chips were slow to update.
+2026-05-21 11:58:20,197 - INFO - Budget filter selected
+2026-05-21 11:58:31,836 - INFO - Bedroom filter selected
+2026-05-21 11:58:39,420 - INFO - Opened project detail page: Experion Saatori
+2026-05-21 11:58:39,424 - INFO - Opened building: Experion Saatori
+2026-05-21 11:59:17,865 - INFO - Clicked View Number
+2026-05-21 11:59:18,338 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:02:04,615 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:02:04,710 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:02:10,537 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:02:10,773 - INFO - Clicked New Launch
+2026-05-21 12:02:14,071 - INFO - Entered location
+2026-05-21 12:02:25,778 - INFO - Search clicked
+2026-05-21 12:02:41,927 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:02:45,936 - INFO - Property type selected
+2026-05-21 12:02:54,304 - INFO - Budget filter selected
+2026-05-21 12:02:58,985 - INFO - Bedroom filter selected
+2026-05-21 12:03:04,295 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:03:04,299 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:03:23,021 - INFO - Clicked View Number
+2026-05-21 12:03:23,326 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:07:38,257 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:07:38,340 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:07:44,720 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:07:44,968 - INFO - Clicked New Launch
+2026-05-21 12:07:51,853 - INFO - Entered location
+2026-05-21 12:08:04,796 - INFO - Search clicked
+2026-05-21 12:08:18,779 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:08:21,462 - INFO - Property type selected
+2026-05-21 12:08:34,970 - INFO - Budget filter selected
+2026-05-21 12:08:43,229 - INFO - Bedroom filter selected
+2026-05-21 12:08:49,482 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:08:49,484 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:08:53,182 - INFO - Closed project disclaimer popup
+2026-05-21 12:09:11,258 - INFO - Clicked View Number
+2026-05-21 12:09:11,596 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:14:28,683 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:14:28,759 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:14:31,436 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:14:36,093 - INFO - Clicked New Launch
+2026-05-21 12:14:39,464 - INFO - Entered location
+2026-05-21 12:14:48,930 - INFO - Search clicked
+2026-05-21 12:15:02,809 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:15:05,392 - INFO - Property type selected
+2026-05-21 12:15:17,734 - INFO - Budget filter selected
+2026-05-21 12:15:22,809 - INFO - Bedroom filter selected
+2026-05-21 12:15:27,278 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:15:27,278 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:15:29,483 - INFO - Closed project disclaimer popup
+2026-05-21 12:15:49,487 - INFO - Clicked View Number
+2026-05-21 12:15:49,756 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:17:46,805 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:17:46,806 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:17:53,728 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:17:56,719 - INFO - Clicked New Launch
+2026-05-21 12:18:02,005 - INFO - Entered location
+2026-05-21 12:18:14,883 - INFO - Search clicked
+2026-05-21 12:18:29,184 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:18:30,496 - INFO - Property type selected
+2026-05-21 12:18:36,393 - INFO - Budget filter selected
+2026-05-21 12:18:39,457 - INFO - Bedroom filter selected
+2026-05-21 12:18:42,148 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:18:42,149 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:18:44,889 - INFO - Closed project disclaimer popup
+2026-05-21 12:19:57,358 - INFO - Clicked View Number
+2026-05-21 12:19:57,865 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:23:01,671 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:23:01,683 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:23:03,882 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:23:04,331 - INFO - Clicked New Launch
+2026-05-21 12:23:11,113 - INFO - Entered location
+2026-05-21 12:23:19,748 - INFO - Search clicked
+2026-05-21 12:23:32,362 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:23:33,211 - INFO - Property type selected
+2026-05-21 12:23:38,116 - INFO - Budget filter selected
+2026-05-21 12:23:42,892 - INFO - Bedroom filter selected
+2026-05-21 12:23:45,476 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:23:45,476 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:23:48,167 - INFO - Closed project disclaimer popup
+2026-05-21 12:24:49,797 - INFO - View Number clicked, but dealer contact details did not render in time.
+2026-05-21 12:27:00,164 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:27:00,168 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:27:06,433 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:27:06,927 - INFO - Clicked New Launch
+2026-05-21 12:27:13,236 - INFO - Entered location
+2026-05-21 12:27:20,629 - INFO - Search clicked
+2026-05-21 12:27:32,927 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:27:33,719 - INFO - Property type selected
+2026-05-21 12:27:45,833 - INFO - Budget dropdown values selected, but applied filter chips were slow to update.
+2026-05-21 12:27:47,234 - INFO - Budget filter selected
+2026-05-21 12:27:52,318 - INFO - Bedroom filter selected
+2026-05-21 12:27:56,983 - INFO - Opened project detail page: Experion Saatori
+2026-05-21 12:27:56,984 - INFO - Opened building: Experion Saatori
+2026-05-21 12:27:59,455 - INFO - Closed project disclaimer popup
+2026-05-21 12:29:31,179 - INFO - Clicked View Number
+2026-05-21 12:29:31,555 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:33:52,436 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:33:52,438 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:33:53,389 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:33:53,804 - INFO - Clicked New Launch
+2026-05-21 12:34:01,187 - INFO - Entered location
+2026-05-21 12:34:09,166 - INFO - Search clicked
+2026-05-21 12:34:22,156 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:34:23,263 - INFO - Property type selected
+2026-05-21 12:34:31,572 - INFO - Budget filter selected
+2026-05-21 12:34:38,023 - INFO - Bedroom filter selected
+2026-05-21 12:34:41,351 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:34:41,352 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:34:42,483 - INFO - Closed project disclaimer popup
+2026-05-21 12:35:32,847 - INFO - Clicked View Number
+2026-05-21 12:35:33,136 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:38:08,792 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:38:08,811 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:38:13,476 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:38:14,556 - INFO - Clicked New Launch
+2026-05-21 12:38:21,354 - INFO - Entered location
+2026-05-21 12:38:36,256 - INFO - Search clicked
+2026-05-21 12:38:52,560 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:38:53,937 - INFO - Property type selected
+2026-05-21 12:39:01,633 - INFO - Budget filter selected
+2026-05-21 12:39:09,603 - INFO - Bedroom filter selected
+2026-05-21 12:39:14,237 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:39:14,238 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:39:16,121 - INFO - Closed project disclaimer popup
+2026-05-21 12:39:43,878 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-21 12:39:57,503 - INFO - Clicked View Number
+2026-05-21 12:39:57,695 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:41:37,599 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:41:37,662 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:41:45,215 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:41:45,645 - INFO - Clicked New Launch
+2026-05-21 12:41:50,927 - INFO - Entered location
+2026-05-21 12:42:07,412 - INFO - Search clicked
+2026-05-21 12:42:24,389 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:42:26,409 - INFO - Property type selected
+2026-05-21 12:42:35,362 - INFO - Budget filter selected
+2026-05-21 12:42:41,127 - INFO - Bedroom filter selected
+2026-05-21 12:42:45,039 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:42:45,041 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:42:46,190 - INFO - Closed project disclaimer popup
+2026-05-21 12:43:11,662 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-21 12:43:26,419 - INFO - Clicked View Number
+2026-05-21 12:43:26,644 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:44:37,656 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:44:37,660 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:44:39,186 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:44:39,750 - INFO - Clicked New Launch
+2026-05-21 12:44:45,512 - INFO - Entered location
+2026-05-21 12:44:54,065 - INFO - Search clicked
+2026-05-21 12:45:06,456 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:45:07,320 - INFO - Property type selected
+2026-05-21 12:45:11,248 - INFO - Budget filter selected
+2026-05-21 12:45:17,635 - INFO - Bedroom filter selected
+2026-05-21 12:45:22,476 - INFO - Opened project detail page: Experion Saatori
+2026-05-21 12:45:22,477 - INFO - Opened building: Experion Saatori
+2026-05-21 12:45:26,913 - INFO - Closed project disclaimer popup
+2026-05-21 12:45:59,859 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-21 12:46:48,229 - INFO - Clicked View Number
+2026-05-21 12:46:49,079 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:49:55,067 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:49:55,162 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:49:57,462 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:49:59,325 - INFO - Clicked New Launch
+2026-05-21 12:50:04,079 - INFO - Entered location
+2026-05-21 12:50:14,312 - INFO - Search clicked
+2026-05-21 12:50:26,911 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:50:29,423 - INFO - Property type selected
+2026-05-21 12:50:41,694 - INFO - Budget filter selected
+2026-05-21 12:50:50,967 - INFO - Bedroom filter selected
+2026-05-21 12:50:57,356 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:50:57,356 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:51:01,063 - INFO - Closed project disclaimer popup
+2026-05-21 12:51:09,050 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-21 12:51:24,688 - INFO - Clicked View Number
+2026-05-21 12:51:24,917 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 12:52:38,631 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 12:52:38,643 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:52:39,349 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 12:52:39,822 - INFO - Clicked New Launch
+2026-05-21 12:52:44,890 - INFO - Entered location
+2026-05-21 12:52:54,442 - INFO - Search clicked
+2026-05-21 12:53:07,373 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 12:53:08,407 - INFO - Property type selected
+2026-05-21 12:53:18,950 - INFO - Budget filter selected
+2026-05-21 12:53:27,773 - INFO - Bedroom filter selected
+2026-05-21 12:53:32,040 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 12:53:32,041 - INFO - Opened building: Investwell DM Infra
+2026-05-21 12:53:34,000 - INFO - Closed project disclaimer popup
+2026-05-21 12:53:42,633 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-21 12:54:02,808 - INFO - Clicked View Number
+2026-05-21 12:54:03,029 - INFO - TEST COMPLETED: New Launch end-to-end flow

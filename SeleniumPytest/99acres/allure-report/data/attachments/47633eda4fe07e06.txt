@@ -1,0 +1,4 @@
+INFO     99acres-framework:test_positive_negative_newlaunch.py:58 TEST STARTED: residential property type filter
+INFO     99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+INFO     99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
+INFO     99acres-framework:filters_page.py:166 Result container did not go stale; waiting for result content.

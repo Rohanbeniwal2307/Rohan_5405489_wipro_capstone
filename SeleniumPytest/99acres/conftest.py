@@ -97,7 +97,10 @@ def setup():
 
     yield driver   # test runs here
 
-    driver.quit()
+    try:
+        driver.quit()
+    except Exception:
+        pass
 
 
 @pytest.hookimpl(hookwrapper=True)

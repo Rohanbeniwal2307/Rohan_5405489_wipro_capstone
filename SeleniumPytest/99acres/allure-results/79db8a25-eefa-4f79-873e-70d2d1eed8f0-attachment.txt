@@ -1,0 +1,5 @@
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:24 TEST STARTED: New Launch end-to-end flow
+[32mINFO    [0m 99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:37 Clicked New Launch
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:42 Entered location
