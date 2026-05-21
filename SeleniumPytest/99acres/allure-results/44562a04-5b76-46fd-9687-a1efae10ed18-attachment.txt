@@ -1,0 +1,9 @@
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:21 TEST STARTED
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:27 Manual login completed
+[32mINFO    [0m 99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:35 Clicked New Launch
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:39 Entered location
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:43 Search clicked
+[32mINFO    [0m 99acres-framework:filters_page.py:153 Result container did not go stale; waiting for result content.
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:47 Property type selected

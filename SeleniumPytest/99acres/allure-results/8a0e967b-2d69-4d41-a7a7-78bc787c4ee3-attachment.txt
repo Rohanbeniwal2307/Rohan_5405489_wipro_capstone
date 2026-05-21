@@ -1,0 +1,1 @@
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:20 TEST STARTED

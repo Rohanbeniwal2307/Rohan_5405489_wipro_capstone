@@ -1,0 +1,15 @@
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:24 TEST STARTED: New Launch end-to-end flow
+[32mINFO    [0m 99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:36 Clicked New Launch
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:40 Entered location
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:44 Search clicked
+[32mINFO    [0m 99acres-framework:filters_page.py:155 Result container did not go stale; waiting for result content.
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:48 Property type selected
+[32mINFO    [0m 99acres-framework:filters_page.py:114 Budget dropdown values selected, but applied filter chips were slow to update.
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:52 Budget filter selected
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:56 Bedroom filter selected
+[32mINFO    [0m 99acres-framework:newlaunch_page.py:95 Opened project detail page: Experion Saatori
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:60 Opened building: Experion Saatori
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:65 Clicked View Number
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:68 TEST COMPLETED: New Launch end-to-end flow

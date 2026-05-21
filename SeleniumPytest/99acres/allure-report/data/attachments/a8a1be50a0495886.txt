@@ -1,0 +1,14 @@
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:19 TEST STARTED
+[32mINFO    [0m 99acres-framework:base_page.py:15 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:18 Clicked successfully: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:26 Clicked New Launch
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:29 Entered location
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:32 Search clicked
+[32mINFO    [0m 99acres-framework:newlaunch_page.py:220 Result container did not go stale; waiting for result content.
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:35 Property type selected
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:38 Budget filter selected
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:41 Bedroom filter selected
+[32mINFO    [0m 99acres-framework:newlaunch_page.py:129 Opened project detail page: Investwell DM Infra
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:44 Opened building: Investwell DM Infra
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:48 Clicked View Number
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:50 TEST COMPLETED

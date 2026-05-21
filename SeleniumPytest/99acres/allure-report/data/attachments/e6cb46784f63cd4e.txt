@@ -1,0 +1,16 @@
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:21 TEST STARTED
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:27 Manual login completed
+[32mINFO    [0m 99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:35 Clicked New Launch
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:39 Entered location
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:43 Search clicked
+[32mINFO    [0m 99acres-framework:filters_page.py:155 Result container did not go stale; waiting for result content.
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:47 Property type selected
+[32mINFO    [0m 99acres-framework:filters_page.py:114 Budget dropdown values selected, but applied filter chips were slow to update.
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:51 Budget filter selected
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:55 Bedroom filter selected
+[32mINFO    [0m 99acres-framework:newlaunch_page.py:52 Opened project detail page: Experion Saatori
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:59 Opened building: Experion Saatori
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:64 Clicked View Number
+[32mINFO    [0m 99acres-framework:test_newlaunch.py:67 TEST COMPLETED

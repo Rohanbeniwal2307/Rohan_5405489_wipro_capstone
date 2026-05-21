@@ -1,0 +1,3 @@
+[32mINFO    [0m 99acres-framework:test_positive_negative_newlaunch.py:40 TEST STARTED: location suggestions
+[32mINFO    [0m 99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
