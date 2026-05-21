@@ -19,6 +19,8 @@ venv/
 .idea/
 .vscode/
 *.log
+!SeleniumPytest/99acres/logs/
+!SeleniumPytest/99acres/logs/*.log
 
 # Excel temporary files
 ~$*.xlsx

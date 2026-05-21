@@ -1,0 +1,55 @@
+2026-05-21 09:19:49,655 - INFO - TEST STARTED: open New Launch module
+2026-05-21 09:19:49,657 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:19:51,303 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:23:32,186 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-21 09:23:32,216 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:23:34,970 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:23:35,853 - INFO - Clicked New Launch
+2026-05-21 09:23:43,816 - INFO - Entered location
+2026-05-21 09:23:55,412 - INFO - Search clicked
+2026-05-21 09:24:07,321 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 09:24:10,447 - INFO - Property type selected
+2026-05-21 09:24:19,880 - INFO - Budget filter selected
+2026-05-21 09:24:24,545 - INFO - Bedroom filter selected
+2026-05-21 09:24:28,132 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-21 09:24:28,133 - INFO - Opened building: Investwell DM Infra
+2026-05-21 09:24:53,275 - INFO - Clicked View Number
+2026-05-21 09:24:53,480 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-21 09:25:06,054 - INFO - TEST STARTED: open New Launch module
+2026-05-21 09:25:06,128 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:25:10,733 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:25:24,993 - INFO - TEST STARTED: search valid location
+2026-05-21 09:25:25,001 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:25:31,704 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:25:51,405 - INFO - TEST STARTED: location suggestions
+2026-05-21 09:25:51,406 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:25:58,634 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:26:11,704 - INFO - TEST STARTED: residential property type filter
+2026-05-21 09:26:11,770 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:26:13,120 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:26:30,848 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 09:26:40,993 - INFO - TEST STARTED: invalid location negative case
+2026-05-21 09:26:40,999 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:26:42,420 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:27:02,864 - INFO - TEST STARTED: empty location search negative case
+2026-05-21 09:27:02,881 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:27:03,654 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:43:43,065 - INFO - TEST STARTED: open New Launch module
+2026-05-21 09:43:43,068 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:43:43,913 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:44:06,435 - INFO - TEST STARTED: search valid location
+2026-05-21 09:44:06,436 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:44:07,911 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:44:34,461 - INFO - TEST STARTED: location suggestions
+2026-05-21 09:44:34,461 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:44:36,043 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:44:52,512 - INFO - TEST STARTED: residential property type filter
+2026-05-21 09:44:52,513 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:44:52,978 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:45:11,608 - INFO - Result container did not go stale; waiting for result content.
+2026-05-21 09:45:27,437 - INFO - TEST STARTED: invalid location negative case
+2026-05-21 09:45:27,438 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:45:28,043 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:45:48,342 - INFO - TEST STARTED: empty location search negative case
+2026-05-21 09:45:48,343 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-21 09:45:49,075 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
