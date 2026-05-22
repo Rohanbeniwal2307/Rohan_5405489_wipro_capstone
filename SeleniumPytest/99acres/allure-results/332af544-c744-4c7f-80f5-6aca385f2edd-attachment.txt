@@ -1,0 +1,16 @@
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:24 TEST STARTED: New Launch end-to-end flow
+[32mINFO    [0m 99acres-framework:base_page.py:17 Clicking on element: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:base_page.py:20 Clicked successfully: ('xpath', "//*[@testid='NL']")
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:37 Clicked New Launch
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:42 Entered location
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:47 Search clicked
+[32mINFO    [0m 99acres-framework:filters_page.py:166 Result container did not go stale; waiting for result content.
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:53 Property type selected
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:58 Budget filter selected
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:63 Bedroom filter selected
+[32mINFO    [0m 99acres-framework:newlaunch_page.py:112 Opened project detail page: Investwell DM Infra
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:68 Opened building: Investwell DM Infra
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:75 Closed project disclaimer popup
+[32mINFO    [0m 99acres-framework:property_details_page.py:62 View Number button clicked; waiting for contact popup.
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:79 Clicked View Number
+[32mINFO    [0m 99acres-framework:test_end_to_end_flow.py:82 TEST COMPLETED: New Launch end-to-end flow

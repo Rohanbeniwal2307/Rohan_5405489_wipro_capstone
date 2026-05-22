@@ -1,0 +1,70 @@
+2026-05-22 17:33:16,144 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-22 17:33:16,903 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:33:19,455 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:33:22,417 - INFO - Clicked New Launch
+2026-05-22 17:33:26,424 - INFO - Entered location
+2026-05-22 17:33:37,235 - INFO - Search clicked
+2026-05-22 17:33:51,241 - INFO - Result container did not go stale; waiting for result content.
+2026-05-22 17:33:53,411 - INFO - Property type selected
+2026-05-22 17:33:59,845 - INFO - Budget filter selected
+2026-05-22 17:34:04,667 - INFO - Bedroom filter selected
+2026-05-22 17:34:07,897 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-22 17:34:07,898 - INFO - Opened building: Investwell DM Infra
+2026-05-22 17:34:09,579 - INFO - Closed project disclaimer popup
+2026-05-22 17:34:16,854 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-22 17:34:39,641 - INFO - Clicked View Number
+2026-05-22 17:34:39,827 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-22 17:35:19,768 - INFO - TEST STARTED: open New Launch module
+2026-05-22 17:35:19,858 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:35:21,990 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:35:40,162 - INFO - TEST STARTED: search valid location
+2026-05-22 17:35:40,215 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:35:41,140 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:36:06,978 - INFO - TEST STARTED: location suggestions
+2026-05-22 17:36:06,994 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:36:08,687 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:36:25,077 - INFO - TEST STARTED: residential property type filter
+2026-05-22 17:36:25,078 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:36:25,747 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:36:47,247 - INFO - Result container did not go stale; waiting for result content.
+2026-05-22 17:37:07,032 - INFO - TEST STARTED: invalid location negative case
+2026-05-22 17:37:07,033 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:37:07,958 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:37:26,873 - INFO - TEST STARTED: empty location search negative case
+2026-05-22 17:37:26,950 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:37:28,456 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:44:00,278 - INFO - TEST STARTED: New Launch end-to-end flow
+2026-05-22 17:44:00,392 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:44:07,061 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:44:07,670 - INFO - Clicked New Launch
+2026-05-22 17:44:11,465 - INFO - Entered location
+2026-05-22 17:44:29,700 - INFO - Search clicked
+2026-05-22 17:44:47,117 - INFO - Result container did not go stale; waiting for result content.
+2026-05-22 17:44:50,999 - INFO - Property type selected
+2026-05-22 17:45:01,718 - INFO - Budget filter selected
+2026-05-22 17:45:07,618 - INFO - Bedroom filter selected
+2026-05-22 17:45:12,550 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-22 17:45:12,551 - INFO - Opened building: Investwell DM Infra
+2026-05-22 17:45:16,382 - INFO - Closed project disclaimer popup
+2026-05-22 17:45:25,293 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-22 17:45:55,077 - INFO - Clicked View Number
+2026-05-22 17:45:55,383 - INFO - TEST COMPLETED: New Launch end-to-end flow
+2026-05-22 17:46:30,966 - INFO - TEST STARTED: open New Launch module
+2026-05-22 17:46:31,171 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:46:38,249 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:47:03,104 - INFO - TEST STARTED: search valid location
+2026-05-22 17:47:03,111 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:47:04,271 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:47:51,470 - INFO - TEST STARTED: location suggestions
+2026-05-22 17:47:51,496 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:47:58,336 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:48:19,200 - INFO - TEST STARTED: residential property type filter
+2026-05-22 17:48:19,311 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:48:25,133 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:48:53,246 - INFO - Result container did not go stale; waiting for result content.
+2026-05-22 17:49:25,136 - INFO - TEST STARTED: invalid location negative case
+2026-05-22 17:49:25,146 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:49:26,928 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:50:02,992 - INFO - TEST STARTED: empty location search negative case
+2026-05-22 17:50:03,281 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-22 17:50:10,305 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
