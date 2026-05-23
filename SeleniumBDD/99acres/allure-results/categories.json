@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Assertion Failures",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Selenium / UI Failures",
+    "matchedStatuses": [
+      "failed",
+      "broken"
+    ],
+    "traceRegex": ".*selenium.*|.*TimeoutException.*|.*StaleElementReferenceException.*"
+  },
+  {
+    "name": "Product Defects",
+    "matchedStatuses": [
+      "failed"
+    ]
+  }
+]

@@ -25,13 +25,6 @@ venv/
 # Excel temporary files
 ~$*.xlsx
 
-# BDD runtime outputs
-SeleniumBDD/99acres/logs/*
-!SeleniumBDD/99acres/logs/.gitkeep
-SeleniumBDD/99acres/screenshots/*
-!SeleniumBDD/99acres/screenshots/.gitkeep
-SeleniumBDD/99acres/reports/*
-!SeleniumBDD/99acres/reports/.gitkeep
-SeleniumBDD/99acres/allure-results/*
-!SeleniumBDD/99acres/allure-results/.gitkeep
-SeleniumBDD/99acres/allure-report/
+# BDD runtime outputs are intentionally committed for capstone evidence.
+!SeleniumBDD/99acres/logs/
+!SeleniumBDD/99acres/logs/*.log
