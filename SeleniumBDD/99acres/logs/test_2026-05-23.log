@@ -13,3 +13,18 @@
 2026-05-23 12:03:12,621 - INFO - Result container did not go stale; waiting for result content.
 2026-05-23 12:03:30,557 - INFO - Opened project detail page: Investwell DM Infra
 2026-05-23 12:03:39,088 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-23 12:14:31,032 - INFO - BDD scenario started
+2026-05-23 12:14:31,231 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:14:32,918 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:15:09,662 - INFO - Result container did not go stale; waiting for result content.
+2026-05-23 12:15:22,609 - INFO - Opened project detail page: Investwell DM Infra
+2026-05-23 12:15:32,880 - INFO - View Number button clicked; waiting for contact popup.
+2026-05-23 12:16:51,583 - INFO - BDD scenario started
+2026-05-23 12:16:51,670 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:16:52,547 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:17:43,865 - INFO - BDD scenario started
+2026-05-23 12:17:43,948 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:17:44,946 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:18:52,599 - INFO - BDD scenario started
+2026-05-23 12:18:52,622 - INFO - Clicking on element: ('xpath', "//*[@testid='NL']")
+2026-05-23 12:18:53,164 - INFO - Clicked successfully: ('xpath', "//*[@testid='NL']")

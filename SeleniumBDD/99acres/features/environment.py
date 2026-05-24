@@ -15,6 +15,19 @@ from config.config_reader import ConfigReader
 from utilities.screenshot import take_screenshot
 
 
+def _attach_latest_log_file():
+    log_files = sorted((PROJECT_ROOT / "logs").glob("test_*.log"))
+    if not log_files:
+        return
+
+    latest_log = log_files[-1]
+    allure.attach.file(
+        str(latest_log),
+        name=latest_log.name,
+        attachment_type=allure.attachment_type.TEXT,
+    )
+
+
 def _write_allure_metadata():
     results_dir = PROJECT_ROOT / "allure-results"
     results_dir.mkdir(exist_ok=True)
@@ -125,6 +138,7 @@ def after_scenario(context, scenario):
                 name=f"{scenario.name}_{scenario.status.name.lower()}",
                 attachment_type=allure.attachment_type.PNG,
             )
+            _attach_latest_log_file()
         except Exception:
             pass
         try:
