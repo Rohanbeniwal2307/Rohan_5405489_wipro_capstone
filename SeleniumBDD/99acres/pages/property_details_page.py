@@ -11,6 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from config.config_reader import ConfigReader
 from utilities.base_page import BasePage
 
 
@@ -45,6 +46,64 @@ class PropertyDetailsPage(BasePage):
         "or contains(translate(normalize-space(.),"
         "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'otp')]",
     )
+    BUYING_TIMELINE_QUESTION = (
+        By.XPATH,
+        "//*[contains(translate(normalize-space(.),"
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),"
+        "'when are you planning to buy this property')]",
+    )
+    THREE_MONTHS_OPTION = (
+        By.XPATH,
+        "//*[contains(translate(normalize-space(.),"
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'3 month') "
+        "or contains(translate(normalize-space(.),"
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'three month')]"
+        "/ancestor-or-self::*[self::button or self::label or self::li or @role='button' or @role='radio'][1]",
+    )
+    CONTACT_FORM_VIEW_NUMBER_BUTTON = (
+        By.XPATH,
+        "("
+        "//button[normalize-space()='View Number' or .//*[normalize-space()='View Number']]"
+        "|//*[@role='button' and (normalize-space()='View Number' or .//*[normalize-space()='View Number'])]"
+        "|//*[normalize-space()='View Number']/ancestor::*[self::button or @role='button'][1]"
+        ")[last()]",
+    )
+    CONTACT_NAME_INPUT = (
+        By.XPATH,
+        "//input["
+        "contains(translate(@name,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name') "
+        "or contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name') "
+        "or contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name')"
+        "]",
+    )
+    CONTACT_EMAIL_INPUT = (
+        By.XPATH,
+        "//input["
+        "@type='email' "
+        "or contains(translate(@name,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'email') "
+        "or contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'email') "
+        "or contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'email')"
+        "]",
+    )
+    CONTACT_PHONE_INPUT = (
+        By.XPATH,
+        "//input["
+        "@type='tel' "
+        "or contains(translate(@name,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'phone') "
+        "or contains(translate(@name,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'mobile') "
+        "or contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'phone') "
+        "or contains(translate(@id,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'mobile') "
+        "or contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'phone') "
+        "or contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'mobile')"
+        "]",
+    )
+    PROPERTY_DEALER_NO_OPTION = (
+        By.XPATH,
+        "//*[contains(translate(normalize-space(.),"
+        "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'are you a property dealer')]"
+        "/following::*[normalize-space()='No' or normalize-space()='NO'][1]"
+        "/ancestor-or-self::*[self::button or self::label or self::li or @role='button' or @role='radio'][1]",
+    )
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -66,8 +125,86 @@ class PropertyDetailsPage(BasePage):
             except (ElementClickInterceptedException, StaleElementReferenceException):
                 ActionChains(self.driver).move_to_element(button).pause(0.1).click(button).perform()
         self._wait_for_contact_details(button)
+        self.complete_contact_form_for_view_number()
         sleep(5)
         return self.is_contact_details_visible()
+
+    def complete_contact_form_for_view_number(self):
+        if not self._contact_popup_appears_quickly():
+            return False
+
+        self._fill_visible_input(self.CONTACT_NAME_INPUT, ConfigReader.get("contact", "name", "Test User"))
+        self._fill_visible_input(
+            self.CONTACT_EMAIL_INPUT,
+            ConfigReader.get("contact", "email", "testuser@example.com"),
+        )
+        self._fill_visible_input(
+            self.CONTACT_PHONE_INPUT,
+            ConfigReader.get("contact", "phone_number", ConfigReader.get("login", "phone_number")),
+        )
+        self.select_property_dealer_no_if_visible()
+        self.select_three_month_buying_timeline_if_visible()
+        return self.click_contact_form_view_number_if_visible()
+
+    def select_three_month_buying_timeline_if_visible(self):
+        if not self._buying_timeline_question_is_visible():
+            return False
+
+        option = WebDriverWait(self.driver, 5).until(
+            lambda driver: self._first_visible_element(self.THREE_MONTHS_OPTION)
+        )
+        self.scroll_to_element(option)
+        self._safe_click(option)
+        self.logger.info("Selected 3 months for property buying timeline.")
+        return True
+
+    def click_contact_form_view_number_if_visible(self):
+        try:
+            view_number_button = WebDriverWait(self.driver, 5).until(
+                lambda driver: self._first_visible_element(self.CONTACT_FORM_VIEW_NUMBER_BUTTON)
+            )
+        except TimeoutException:
+            return False
+
+        self.scroll_to_element(view_number_button)
+        self._safe_click(view_number_button)
+        self.logger.info("Clicked View Number after filling contact form.")
+        self._wait_for_contact_details(view_number_button)
+        return True
+
+    def select_property_dealer_no_if_visible(self):
+        option = self._first_visible_element(self.PROPERTY_DEALER_NO_OPTION)
+        if not option:
+            return False
+
+        self.scroll_to_element(option)
+        self._safe_click(option)
+        self.logger.info("Selected No for property dealer question.")
+        return True
+
+    def _fill_visible_input(self, locator, value):
+        field = self._first_visible_input(locator)
+        if not field:
+            return False
+
+        current_value = field.get_attribute("value") or ""
+        if current_value.strip():
+            return False
+
+        self.scroll_to_element(field)
+        field.clear()
+        field.send_keys(value)
+        self.logger.info(f"Filled contact form field: {locator}")
+        return True
+
+    def _first_visible_input(self, locator):
+        for element in self.driver.find_elements(*locator):
+            try:
+                if element.is_displayed() and element.is_enabled():
+                    return element
+            except StaleElementReferenceException:
+                continue
+        return False
 
     def _dispatch_mouse_click(self, button):
         self.driver.execute_script(
@@ -89,6 +226,12 @@ class PropertyDetailsPage(BasePage):
             """,
             button,
         )
+
+    def _safe_click(self, element):
+        try:
+            element.click()
+        except (ElementClickInterceptedException, StaleElementReferenceException):
+            self.js_click(element)
 
     def is_view_number_visible(self):
         self._cached_view_number_button = self._find_view_number_button()
@@ -213,6 +356,24 @@ class PropertyDetailsPage(BasePage):
             except StaleElementReferenceException:
                 continue
         return " ".join(texts)
+
+    def _buying_timeline_question_is_visible(self):
+        try:
+            WebDriverWait(self.driver, 3).until(
+                lambda driver: self._first_visible_element(self.BUYING_TIMELINE_QUESTION)
+            )
+            return True
+        except TimeoutException:
+            return False
+
+    def _first_visible_element(self, locator):
+        for element in self.driver.find_elements(*locator):
+            try:
+                if element.is_displayed() and element.text.strip():
+                    return element
+            except StaleElementReferenceException:
+                continue
+        return False
 
     def _find_view_number_button(self):
         self.close_project_disclaimer_if_visible()

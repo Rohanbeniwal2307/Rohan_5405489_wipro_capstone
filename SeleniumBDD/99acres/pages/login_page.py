@@ -1,7 +1,7 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -88,11 +88,15 @@ class LoginPage(BasePage):
         if driver.execute_script("return document.readyState") != "complete":
             return False
 
-        visible_overlays = [
-            element
-            for element in driver.find_elements(*self.LOGIN_OR_OTP_OVERLAY)
-            if element.is_displayed()
-        ]
+        try:
+            visible_overlays = [
+                element
+                for element in driver.find_elements(*self.LOGIN_OR_OTP_OVERLAY)
+                if element.is_displayed()
+            ]
+        except StaleElementReferenceException:
+            return False
+
         if visible_overlays:
             return False
 
